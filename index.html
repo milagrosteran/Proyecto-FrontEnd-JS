@@ -7,97 +7,72 @@
       href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tienda de Mili</title>
   </head>
   <body>
     <header class="header">
-        <p class="header_logo">
-            <a href="./index.html">Mi Tienda Online</a>
-        </p>
-        <nav class="header_nav">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+      <p class="header_logo">
+        <a href="./index.html">Mi Tienda Online</a>
+      </p>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main>
-        <section id="inicio">
-            <h1 class="titulohome">Bienvenidos a nuestra tienda</h1>
-            <p class="parrafo-home">Explorá nuestros productos de calidad.</p>
-        </section>
+      <section id="inicio">
+        <h1 class="titulohome">Bienvenidos a nuestra tienda</h1>
+        <p class="parrafo-home">Explorá nuestros productos de calidad.</p>
+      </section>
 
-        <section id="productos" class="productos-home">
-            <h2>Productos Destacados</h2>
-            <div class="contenedor-tarjetas">
-                <article class="tarjeta-producto">
-                    <img src="./img/argentina.jpg" alt="Camiseta Argentina">
-                    <h3>Camiseta Argentina</h3>
-                    <p>Camiseta suplente de la Selección Argentina utilizada en el mundial de 2022.</p>
-                    <p class="precio">$55.000</p>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="./img/españa.jpg" alt="Camiseta España">
-                    <h3>Camiseta España</h3>
-                    <p>Camiseta retro de la Selección Española utilizada en el mundial de 2014.</p>
-                    <p class="precio">$70.000</p>
-                </article>
-                <article class="tarjeta-producto">
-                    <img src="./img/japon.jpg" alt="Camiseta Japón">
-                    <h3>Camiseta Japón</h3>
-                    <p>Camiseta titular de la Selección Japonesa utilizada en la temporada 2024/25.</p>
-                    <p class="precio">$85.000</p>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <section id="contacto">
-        <h2>Contacto/h2
-        <form action="https://formspree.io/f/mzzjvkpo" method="POST">
-            <fieldset>
-                <legend>Información personal</legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="_replyto" required>
-            </fieldset>
-
-            <fieldset>
-                <legend>Motivo y mensaje</legend>
-                <label for="motivo">Motivo:</label>
-                <select id="motivo" name="motivo" required>
-                    <option value="">-- Seleccioná una opción --</option>
-                    <option value="consulta">Consulta</option>
-                    <option value="soporte">Soporte</option>
-                    <option value="otros">Otros</option>
-                </select>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            </fieldset>
-
-            <section>
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpiar</button>
-            </section>
-        </form>
-        </section>
+      <section id="productos" class="productos-home">
+        <h2>Productos Destacados</h2>
+        <div class="contenedor-tarjetas">
+          <article class="tarjeta-producto">
+            <img src="./img/argentina.jpg" alt="Camiseta Argentina" />
+            <h3>Camiseta Argentina</h3>
+            <p>
+              Camiseta suplente de la Selección Argentina utilizada en el
+              mundial de 2022.
+            </p>
+            <p class="precio">$55.000</p>
+          </article>
+          <article class="tarjeta-producto">
+            <img src="./img/españa.jpg" alt="Camiseta España" />
+            <h3>Camiseta España</h3>
+            <p>
+              Camiseta retro de la Selección Española utilizada en el mundial de
+              2014.
+            </p>
+            <p class="precio">$70.000</p>
+          </article>
+          <article class="tarjeta-producto">
+            <img src="./img/japon.jpg" alt="Camiseta Japón" />
+            <h3>Camiseta Japón</h3>
+            <p>
+              Camiseta titular de la Selección Japonesa utilizada en la
+              temporada 2024/25.
+            </p>
+            <p class="precio">$85.000</p>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <p>Esta página fue diseñada por Mili</p>
-        <nav>
-            <ul>
-                <li>Instagram</li>
-                <li>TikTok</li>
-                <li>X</li>
-            </ul>
-        </nav>
+      <p>Esta página fue diseñada por Mili</p>
+      <nav>
+        <ul>
+          <li>Instagram</li>
+          <li>TikTok</li>
+          <li>X</li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>

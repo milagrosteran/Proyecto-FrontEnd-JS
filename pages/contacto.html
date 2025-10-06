@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contacto - Tienda de Mili</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header_logo">
+        <a href="../index.html">Mi Tienda Online</a>
+      </p>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="../index.html#inicio">Inicio</a></li>
+          <li><a href="../index.html#productos">Productos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contacto">
+        <h1>Contacto</h1>
+        <form action="https://formspree.io/f/mzzjvkpo" method="POST">
+          <fieldset>
+            <legend>Información Personal</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="_replyto" required />
+          </fieldset>
+
+          <fieldset>
+            <legend>Motivo y mensaje</legend>
+
+            <label for="motivo">Motivo:</label>
+            <select id="motivo" name="motivo" required>
+              <option value="">-- Seleccioná una opción --</option>
+              <option value="consulta">Consulta</option>
+              <option value="soporte">Soporte</option>
+              <option value="otros">Otros</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </fieldset>
+
+          <section>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+          </section>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Esta página fue diseñada por Mili</p>
+    </footer>
+  </body>
+</html>
